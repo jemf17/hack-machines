@@ -6,8 +6,9 @@ realize un ping a la coneccion para vereficar que la ip dada existia
 
 Luego realice nmap para verificar los puestos activos y los servicios que corrian por los mismos
 
-```nmap -Pn 10.129.119.162
-Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-03 18:46 -03                                   │root@Meow:~# ls
+```nmap -Pn 10.129.119.162```
+##### Resultado:
+```Starting Nmap 7.95 ( https://nmap.org ) at 2025-05-03 18:46 -03                                   │root@Meow:~# ls
 Nmap scan report for 10.129.119.162 (10.129.119.162)                                              │flag.txt  snap
 Host is up (0.35s latency).                                                                       │root@Meow:~# cat flag.txt 
 Not shown: 999 closed tcp ports (reset)                                                           │b40abdfe23665f766f9c61ecba8a4c19
