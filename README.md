@@ -34,9 +34,9 @@
 ```
 ## Comandos de automatic.sh
 
-- -h          Mostrar ayuda
-- -m <nombre> Crear máquina HTB (Active)"
-- -r <nombre> Crear máquina HTB (Retired)"
-- -t <nombre> Crear room THM (Beginner-Paths)"
-- -c <nombre> Crear cheatsheet"
-- -T <nombre> Crear herramienta en Tools/"
+- ``` ./automatic.sh -h ``` > Mostrar ayuda
+- ``` ./automatic.sh -m <nombre> ``` > Crear máquina HTB (Active)"
+- ``` ./automatic.sh -r <nombre> ``` > Crear máquina HTB (Retired)"
+- ``` ./automatic.sh -t <nombre> ``` > Crear room THM (Beginner-Paths)"
+- ``` ./automatic.sh -c <nombre> ``` > Crear cheatsheet"
+- ``` ./automatic.sh -T <nombre> ``` > Crear herramienta en Tools/"
