@@ -8,6 +8,7 @@ mostrar_ayuda() {
     echo "  -m <nombre> Crear máquina HTB (Active)"
     echo "  -r <nombre> Crear máquina HTB (Retired)"
     echo "  -t <nombre> Crear room THM (Beginner-Paths)"
+    echo "  -t <nombre> Crear room THM (CTFs)"
     echo "  -c <nombre> Crear cheatsheet"
     echo "  -T <nombre> Crear herramienta en Tools/"
     echo ""
@@ -32,12 +33,13 @@ crear_estructura() {
 }
 
 # Procesar opciones
-while getopts ":hm:r:t:c:T:" opt; do
+while getopts ":hm:r:t:c:T:f:" opt; do
     case $opt in
         h) mostrar_ayuda ;;
         m) crear_estructura "HTB" "Active" "$OPTARG" ;;
         r) crear_estructura "HTB" "Retired" "$OPTARG" ;;
         t) crear_estructura "THM" "Beginner-Paths" "$OPTARG" ;;
+        f) crear_estructura "THM" "CTFs" "$OPTARG" ;;
         c) 
             mkdir -p Cheatsheets
             touch "Cheatsheets/$OPTARG.md"

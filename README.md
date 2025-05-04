@@ -38,6 +38,7 @@
 - ``` ./automatic.sh -m <nombre> ``` | `Crear máquina HTB (Active)`
 - ``` ./automatic.sh -r <nombre> ``` | `Crear máquina HTB (Retired)`
 - ``` ./automatic.sh -t <nombre> ``` | `Crear room THM (Beginner-Paths)`
+- ``` ./automatic.sh -t <nombre> ``` | `Crear room THM (CTFs)`
 - ``` ./automatic.sh -c <nombre> ``` | `Crear cheatsheet`
 - ``` ./automatic.sh -T <nombre> ``` | `Crear herramienta en Tools/ `
 
